@@ -1,0 +1,30 @@
+body {
+	color: #bad7f2;
+	font-size: 25px;
+	font-family: inconsolata;
+	background-image: url("images/cochon.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	color: #baf2bb;
+	font-size: 40px;
+}
+
+h2 {
+	color: #baf2d8;
+	font-size: 32px;
+}
+
+p {
+	color: black;
+}
+
+#banner{
+	background-color: white;
+	background-size: cover;
+	padding: 150px;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
