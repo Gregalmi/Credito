@@ -4,6 +4,7 @@ body {
 	font-family: inconsolata;
 	background-image: url("images/cochon.jpg");
 	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
@@ -13,7 +14,7 @@ h1 {
 }
 
 h2 {
-	color: #baf2d8;
+	color: #50dc9b;
 	font-size: 32px;
 }
 
@@ -21,10 +22,96 @@ p {
 	color: black;
 }
 
+a:hover {
+	text-decoration: none;
+}
 #banner{
 	background-color: white;
 	background-size: cover;
 	padding: 150px;
     text-shadow: 1px 1px 5px black;
     text-align: center;
+    box-shadow: 0 0 10px grey;
+    width: 100vw;
+    margin: 0 auto;
+
+}
+
+.btn-simu {
+	text-decoration: none;
+	padding: 10px;
+	background-color: #f2e2ba;
+	border-radius: 5px;
+	text-shadow: none; 
+}
+
+.btn-simu:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card-item {
+	padding: 30px;
+	background-color: rgba(186 215 242 0.5);
+	border-color: black;
+	border-radius: 10px;
+	box-shadow: 0 0 10px grey;
+	margin: 20px 20px;
+	width: 50vw;
+}
+
+.footer{
+	background-color: white;
+	background-size: cover;
+	padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+    width: 100vw;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icon-fb {
+	color: #68a7e3;
+}
+
+.icon-insta {
+	color: #B93F84;
+}
+
+.icon-twitter {
+	color: #68a7e3;
+}
+
+.icon-fb:hover {
+	color: #68a7e3;
+	opacity: 0.7;
+}
+
+.icon-insta:hover {
+	color: #B93F84;
+	opacity: 0.7;
+}
+
+.icon-twitter:hover {
+	color: #68a7e3;
+	opacity: 0.7;
+}
+
+.icon-size {
+	font-size: 40px;
 }
