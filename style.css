@@ -39,6 +39,7 @@ a:hover {
 
 .btn-simu {
 	text-decoration: none;
+	text-shadow: 1px 1px 2px black;
 	padding: 10px;
 	background-color: #f2e2ba;
 	border-radius: 5px;
@@ -56,6 +57,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
+	min-height: 100vh;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -82,8 +84,22 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    position: relative;
+    bottom: 0;
 }
+
+.nav-back {
+	background-color: white;
+	background-size: cover;
+	padding: 30px;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+
 
 .icon-fb {
 	color: #68a7e3;
@@ -114,4 +130,24 @@ a:hover {
 
 .icon-size {
 	font-size: 40px;
+}
+
+
+.card-item {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 65%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 65%;
+  }
 }
